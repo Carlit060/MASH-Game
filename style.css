@@ -14,14 +14,17 @@ body {
 
 /* Heading Styles */
 h1 {
-  font-size: 70px;
-  color: #DEC19B;
+  font-family: 'Rock Salt', cursive;
+  font-size: 150px;
+  color: #dcd0ff;
   text-align: center;
 }
 
 
 /* Game Directions */
 .description {
+font-family: 'Architects Daughter', cursive;
+  color: #dcd0ff;
   text-align: center;
   margin: 80px auto 40px;
 }
@@ -29,13 +32,14 @@ h1 {
 
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
-  background: transparent;
-  border: 3px solid #fff;
+  background: #e6e6fa;
+  border: 3px solid #e6e6fa;
   border-radius: 6px;
-  color: #DEC19B;
+  color: #dcd0ff;
   cursor: pointer; 
   display: block;
-  font-size: 20px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 18px;
   font-weight: bold;  
   margin: 0 auto 60px;
   padding: 1em 2em; 
@@ -44,6 +48,7 @@ h1 {
 
 .bucket {
   display: inline-block;
+  font-family: 'Architects Daughter', cursive;
   margin-bottom: 40px;
   width: 100%;
 }
@@ -64,9 +69,12 @@ h1 {
 
 .choice-bucket input {
   border: 0;
+  background: #e6e6fa;
+  opacity: 75%;
   border-radius: 6px;
-  color: #DEC19B;
-  font-size: 18px;
+  color: #dcd0ff;
+  font-size: 25px;
+  font-weight: bold;
   margin: 15px 4%;
   outline: 0;
   padding: 16px 0;
@@ -79,10 +87,12 @@ h1 {
 }
 
 .highlight {
-  font-size: 18px;
+  color: #dcd0ff;
+  font-size: 25px;
   line-height: 24px;
   margin-left: 30px;
   opacity: .8;
+  height: 50px;
 }
 
 
@@ -90,9 +100,9 @@ h1 {
 /* Answer Div */
 #answers {
   margin: 60px 0;
-  background: #fff;
+  background:#e6e6fa;
   border-radius: 6px;
-  color: #713e94;
+  color: #dcd0ff;
   transition: 1s linear;
 }
 
