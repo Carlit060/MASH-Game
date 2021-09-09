@@ -62,7 +62,8 @@ font-family: 'Architects Daughter', cursive;
 }
 
 .choice-bucket label {
-  font-size: 12px;
+  font-size: 30px;
+  color: #dcd0ff;
   line-height: 13px;
   margin: 15px 4%;
 }
